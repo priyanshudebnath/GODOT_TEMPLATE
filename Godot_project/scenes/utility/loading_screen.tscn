@@ -51,9 +51,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_qsleh"]
 _data = {
-"RESET": SubResource("Animation_mn4ff"),
-"fade_to_black": SubResource("Animation_66jto"),
-"fade_to_normal": SubResource("Animation_xs08y")
+&"RESET": SubResource("Animation_mn4ff"),
+&"fade_to_black": SubResource("Animation_66jto"),
+&"fade_to_normal": SubResource("Animation_xs08y")
 }
 
 [node name="LoadingScreen" type="CanvasLayer"]
@@ -62,7 +62,7 @@ script = ExtResource("1_tk0ri")
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 unique_name_in_owner = true
 libraries = {
-"": SubResource("AnimationLibrary_qsleh")
+&"": SubResource("AnimationLibrary_qsleh")
 }
 
 [node name="BackGround" type="ColorRect" parent="."]

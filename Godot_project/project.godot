@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Godot Game Template"
 config/version="0.0.1"
-run/main_scene="uid://ldg2jq7gg87x"
+run/main_scene="uid://dhyx7njorpgav"
 config/use_custom_user_dir=true
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="uid://liwxv083jv8i"
@@ -34,8 +34,6 @@ gdscript/warnings/untyped_declaration=2
 
 [display]
 
-window/size/viewport_width=1600
-window/size/viewport_height=900
 window/size/resizable=false
 window/subwindows/embed_subwindows=false
 window/stretch/mode="canvas_items"
@@ -54,6 +52,8 @@ enabled=PackedStringArray("res://addons/limbo_console/plugin.cfg")
 
 theme/custom="uid://12mr6wnl67v2"
 theme/custom_font="uid://c322bulsaw8fv"
+theme/default_font_multichannel_signed_distance_field=true
+theme/default_font_generate_mipmaps=true
 
 [input]
 
@@ -91,7 +91,7 @@ limbo_console_search_history={
 [internationalization]
 
 locale/translation_remaps={}
-locale/translations=PackedStringArray("res://assets/localizations/translation_template.en.translation", "res://assets/localizations/translation_template.ru.translation", "res://assets/Resources/Translations/funny.po")
+locale/translations=PackedStringArray("res://assets/localizations/translation_template.en.translation", "res://assets/localizations/translation_template.ru.translation", "res://assets/localizations/translation_template.nm.translation", "res://assets/localizations/translation_template.nml.translation")
 locale/translations_pot_files=PackedStringArray("res://scenes/settings/settings_ui.tscn", "res://scenes/settings/setting_windows/controls_settings_ui.tscn", "res://scenes/settings/setting_windows/game_settings_ui.tscn", "res://scenes/settings/setting_windows/graphic_settings_ui.tscn", "res://scenes/settings/setting_windows/sound_settings_ui.tscn")
 
 [rendering]

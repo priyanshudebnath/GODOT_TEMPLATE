@@ -14,7 +14,7 @@ func _connect_signals() -> void:
 
 func _load_settings() -> void:
 	if(FileAccess.file_exists(settings_file_path)):
-		print("loading settings")
+		#print("loading settings")
 		_load_settings_from_file()
 	else:
 		print('Unavailable to find settings files. Load defaults.')

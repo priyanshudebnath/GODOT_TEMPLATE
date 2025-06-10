@@ -7,7 +7,6 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_5iwua"]
 
 [resource]
-Button/font_sizes/font_size = 50
 Button/styles/focus = SubResource("StyleBoxEmpty_5iwua")
 Button/styles/hover = ExtResource("1_1djnk")
 Button/styles/normal = ExtResource("2_3ajvw")

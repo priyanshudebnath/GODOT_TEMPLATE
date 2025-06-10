@@ -8,7 +8,8 @@ signal settings_changed()
 @export_storage var LANGUAGES: Dictionary[String,String] = {
 	"English" = "en", 
 	"Русский" = "ru",
-	"Nerd Mode" = "nm"
+	"Nerd Mode" = "nm",
+	"Nerd Mode Long" = "nml"
 	}:
 		get():
 			return LANGUAGES
@@ -130,7 +131,7 @@ func change_action_map(action: String, event: InputEvent) -> void:
 	InputMap.action_erase_events(action)
 	InputMap.action_add_event(action,action_map[action])
 	settings_changed.emit()
-	__print_mappings()
+	#__print_mappings()
 
 func default_keys_controls() -> void:
 	action_map = default_action_map.duplicate()
@@ -138,7 +139,7 @@ func default_keys_controls() -> void:
 		InputMap.action_erase_events(action)
 		InputMap.action_add_event(action,action_map[action])
 	settings_changed.emit()
-	__print_mappings()
+	#__print_mappings()
 
 func _volume_to_db(volume: float) -> float:
 	if volume <= 0:
@@ -172,7 +173,7 @@ func _init_input_map() -> void:
 			if(!action_map.has(action) and action.substr(0,2) != "ui"):
 				action_map.set(action,InputMap.action_get_events(action)[0])
 				default_action_map.set(action,InputMap.action_get_events(action)[0])
-	__print_mappings()
+	#__print_mappings()
 
 func __print_mappings() -> void:
 	print("Defaults")
