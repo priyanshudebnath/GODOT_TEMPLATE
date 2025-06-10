@@ -1,2 +1,2 @@
-# Isekai_horror
-I Got Reincarnated as a Haunted Toaster
+# GODOT TEMPLATE
+A Godot Template for using when trying to template data
