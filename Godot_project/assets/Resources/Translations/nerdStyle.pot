@@ -1,0 +1,56 @@
+# LANGUAGE translation for Godot Game Template for the following files:
+# res://scenes/settings/settings_ui.tscn
+# res://scenes/settings/setting_windows/controls_settings_ui.tscn
+# res://scenes/settings/setting_windows/game_settings_ui.tscn
+# res://scenes/settings/setting_windows/graphic_settings_ui.tscn
+# res://scenes/settings/setting_windows/sound_settings_ui.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Godot Game Template\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/settings/settings_ui.tscn
+msgid "GAME"
+msgstr ""
+
+#: scenes/settings/settings_ui.tscn
+msgid "CONTROLS"
+msgstr ""
+
+#: scenes/settings/settings_ui.tscn
+msgid "GRAPHIC"
+msgstr ""
+
+#: scenes/settings/settings_ui.tscn
+msgid "SOUND"
+msgstr ""
+
+#: scenes/settings/settings_ui.tscn
+msgid "EXIT"
+msgstr ""
+
+#: scenes/settings/setting_windows/controls_settings_ui.tscn
+msgid "KEYS"
+msgstr ""
+
+#: scenes/settings/setting_windows/controls_settings_ui.tscn
+msgid "RESET_CONTROLS"
+msgstr ""
+
+#: scenes/settings/setting_windows/game_settings_ui.tscn
+msgid "Start_Game"
+msgstr ""
+
+#: scenes/settings/setting_windows/game_settings_ui.tscn
+msgid "End_Game"
+msgstr ""
+
+#: scenes/settings/setting_windows/graphic_settings_ui.tscn
+msgid "WINDOW"
+msgstr ""
