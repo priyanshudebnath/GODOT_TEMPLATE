@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://q2dw023h4pea"]
+
+[ext_resource type="PackedScene" uid="uid://ctgcnn0vj0h85" path="res://scenes/ui/pauseMenu.tscn" id="1_iuucx"]
+
+[node name="GameScene" type="Node"]
+
+[node name="pauseMenu" parent="." instance=ExtResource("1_iuucx")]
+
+[node name="Players" type="Node" parent="."]
+
+[node name="Enemies" type="Node" parent="."]
